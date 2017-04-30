@@ -4,7 +4,6 @@
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-
 	<package name="test-action" namespace="/" extends="struts-default">
 		<action name="test_*" class="cn.itcast.test.action.TestAction" method="{1}">
 		<result name="success">/index.jsp</result>
